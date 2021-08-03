@@ -1,0 +1,136 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hamter.walk": {
+			"loop": true,
+			"animation_length": 0.16667,
+			"bones": {
+				"LegBackRight": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, -1]
+						},
+						"0.0833": {
+							"vector": [0, 0, 1]
+						},
+						"0.1667": {
+							"vector": [0, 0, -1]
+						}
+					}
+				},
+				"LegFrontRight": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 1]
+						},
+						"0.0833": {
+							"vector": [0, 0, -1]
+						},
+						"0.1667": {
+							"vector": [0, 0, 1]
+						}
+					}
+				},
+				"LegFrontLeft": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, -1]
+						},
+						"0.0833": {
+							"vector": [0, 0, 1]
+						},
+						"0.1667": {
+							"vector": [0, 0, -1]
+						}
+					}
+				},
+				"LegBackLeft": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 1]
+						},
+						"0.0833": {
+							"vector": [0, 0, -1]
+						},
+						"0.1667": {
+							"vector": [0, 0, 1]
+						}
+					}
+				},
+				"Head": {
+					"position": {
+						"0.0": {
+							"vector": [0, -1, 0]
+						},
+						"0.0833": {
+							"vector": [0, 0, 0],
+							"easing": "step"
+						},
+						"0.1667": {
+							"vector": [0, -1, 0],
+							"easing": "step"
+						}
+					}
+				}
+			}
+		},
+		"animation.hamter.wag": {
+			"loop": true,
+			"animation_length": 0.16667,
+			"bones": {
+				"Tail": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 12.5, 10]
+						},
+						"0.0833": {
+							"vector": [0, -15, 0],
+							"easing": "easeInBack"
+						},
+						"0.1667": {
+							"vector": [0, 12.5, 10],
+							"easing": "easeInBack"
+						}
+					}
+				}
+			}
+		},
+		"animation.hamter.dance": {
+			"animation_length": 2,
+			"bones": {
+				"Body": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					},
+					"position": {
+						"vector": [0, 5, -4]
+					}
+				},
+				"LegBackRight": {
+					"rotation": {
+						"vector": [90, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, 2]
+					}
+				},
+				"LegBackLeft": {
+					"rotation": {
+						"vector": [90, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, 2]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [90, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				}
+			}
+		}
+	}
+}
